@@ -15,11 +15,16 @@ In the first milestone, we'll cover the following key concepts and features:
 Completed foundation for your E-Commerce Application.
 
 ## Milestone 2
-*Seperate folders for frontend and backend
-*A functional Login Page in the frontend
-*Completed setting up tailwind-css
+*Seperate folders for frontend and backend.
+*A functional Login Page in the frontend.
+*Completed setting up tailwind-css.
 
 ## Milestone 3
-*Organised the backend folder structure for scalability
-*Connected the server to MongoDB using Mongoose
-*Implemented error-handling middleware for API stability
+*Organised the backend folder structure for scalability.
+*Connected the server to MongoDB using Mongoose.
+*Implemented error-handling middleware for API stability.
+
+## Milestone 4
+*Created the user model in mongoose to define user data structure.
+*Developed the user controller to manage user authentication (signup,login).
+*Implemented multer for file handling, allowing user profile and product image.
