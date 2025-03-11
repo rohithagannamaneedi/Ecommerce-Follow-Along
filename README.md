@@ -28,3 +28,7 @@ Completed foundation for your E-Commerce Application.
 *Created the user model in mongoose to define user data structure.
 *Developed the user controller to manage user authentication (signup,login).
 *Implemented multer for file handling, allowing user profile and product image.
+
+# Milestone 5
+* Createdthe Signup page in React and added code for signup backend also.
+* Added the Signup page validation in (signup,login).
