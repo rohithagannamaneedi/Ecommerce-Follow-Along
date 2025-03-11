@@ -32,3 +32,8 @@ Completed foundation for your E-Commerce Application.
 # Milestone 5
 * Createdthe Signup page in React and added code for signup backend also.
 * Added the Signup page validation in (signup,login).
+
+# Milestone 6
+
+* Added the password encryption in backend signup page.
+* Added comparison for checking password is correct or not in login backend
