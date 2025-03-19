@@ -44,3 +44,9 @@ Completed foundation for your E-Commerce Application.
 # Milestone 8:
 * Added the product page in Frontend as a homepage.
 
+# Milestone 9:
+* Created form for product upload.
+* Created the AddProducts page in Frontend.
+* Added from validation in AddProducts page.
+
+
