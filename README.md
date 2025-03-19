@@ -49,4 +49,9 @@ Completed foundation for your E-Commerce Application.
 * Created the AddProducts page in Frontend.
 * Added from validation in AddProducts page.
 
+# Milestone 10
+* Created the ProductRouter page in Backend.
+* Created ProductModel in backend.
+* Handle file uploads by multer inside middleware multer.
+
 
