@@ -54,4 +54,9 @@ Completed foundation for your E-Commerce Application.
 * Created ProductModel in backend.
 * Handle file uploads by multer inside middleware multer.
 
+# Milestone 11
+* Created Homepage for products.
+* Created Home Page for dynamic products presentation.
+* Added the backend part for handeling products (created endpoint to get products).
+
 
