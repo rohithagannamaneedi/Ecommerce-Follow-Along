@@ -1,5 +1,6 @@
 import React, { useState } from 'react'
 import "./login.css"
+import axios from 'axios'
 
 const Login = () => {
     const[loginData,setLoginData]=useState({
@@ -13,7 +14,7 @@ const Login = () => {
         setLoginData({...loginData,[e.target.name]:e.target.value})
     }
 
-    function handleLogin(event){
+    async function handleLogin(event){
         event.preventDefault();
         if(loginData.email == ""){
             alert ("Please enter email...");
@@ -25,8 +26,19 @@ const Login = () => {
             return;
 
         }
+        try{
+          const checkUser = await axios.post("http://localhost:8080/user/login",loginData);
+          console.log(checkUser)
+          localStorage.setItem("follow-along-auth-token",JSON.stringify(checkUser.data.token));
+          alert("You are sucessfully loged in");
 
-        alert("You are sucessfully loged in");
+        } catch(error){
+          console.log(error);
+          alert ("Something went wrong while logging in");  
+
+        }
+
+        
 
     }
   return (

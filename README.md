@@ -41,10 +41,10 @@ Completed foundation for your E-Commerce Application.
 * To Understand how to validate user credentials during login.
 * Learning how to compare the encrypted password with the users input.
 
-# Milestone 8:
+# Milestone 8
 * Added the product page in Frontend as a homepage.
 
-# Milestone 9:
+# Milestone 9
 * Created form for product upload.
 * Created the AddProducts page in Frontend.
 * Added from validation in AddProducts page.
@@ -58,5 +58,10 @@ Completed foundation for your E-Commerce Application.
 * Created Homepage for products.
 * Created Home Page for dynamic products presentation.
 * Added the backend part for handeling products (created endpoint to get products).
+
+# Mileston 12
+* Showing product according to user.
+* Created Product page for dynamic products 0presentation according to user mail.
+* Created backend for specific user products.
 
 
