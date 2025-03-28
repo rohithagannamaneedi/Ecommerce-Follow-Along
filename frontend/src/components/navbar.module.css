@@ -9,7 +9,6 @@
     justify-content: space-between;
     width: 25%;
     flex-wrap: nowrap;
-
 }
 
 .navbar > div:nth-child(2) div{
@@ -26,9 +25,8 @@
     cursor: pointer;
 }
 
-
 .navbar h1{
-    color: rgb(173, 10, 244);
+    color: navy;
     font-style: italic;
     font-size: xx-large;
     font-weight: 600;

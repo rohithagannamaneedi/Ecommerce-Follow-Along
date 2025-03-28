@@ -64,4 +64,19 @@ Completed foundation for your E-Commerce Application.
 * Created Product page for dynamic products 0presentation according to user mail.
 * Created backend for specific user products.
 
+# Milestone 13:
+ * Created Product Update
+ * Created Product Update Endpoint for Updating products. 
+ * Created form for updating data in frontend and created autofill function.
+
+#  Milestone 14:
+* Created Product Delete
+* Created Product Delete Endpoint for Updating products. 
+* Created form for Deleting product in frontend.
+
+# Milestone 15:
+* Created NavBar
+* Created Navigation Bar for navigating between pages.
+
+
 

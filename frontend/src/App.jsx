@@ -7,17 +7,15 @@ import { BrowserRouter } from 'react-router-dom'
 import AllRouting from './AllRouting'
 import Navbar from './components/Navbar'
 
-
 function App() {
-  const [count, setCount] = useState(0)
 
   return (
     <>
-      <BrowserRouter>
-        <Navbar/>
-        <AllRouting/>
-      </BrowserRouter>
-      
+    <BrowserRouter>
+      <Navbar/>
+      <AllRouting/>
+    </BrowserRouter>
+
     </>
   )
 }

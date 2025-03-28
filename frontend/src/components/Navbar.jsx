@@ -1,7 +1,6 @@
 import React from 'react'
-import { useNavigate } from 'react-router-dom';
+import { useNavigate } from 'react-router-dom'
 import styles from "./navbar.module.css";
-
 const Navbar = () => {
     const navigate = useNavigate();
   return (
@@ -12,32 +11,24 @@ const Navbar = () => {
         onClick={()=>{
             navigate("/");
         }}
-        
         >
             <h1>Home</h1>
         </div>
         <div>
             <p onClick={()=>{
                 navigate("/addproducts");
-            }
-            }>Add Products</p>
+            }}>Add Products</p>
         </div>
-
         <div>
         <div
         onClick={()=>{
             navigate("/login");
-
         }}
-        
         >Login</div>
         <div
         onClick={()=>{
-            navigate("signup");
-
+            navigate("/signup");
         }}
-
-        
         >Signup</div>
         </div>
         
