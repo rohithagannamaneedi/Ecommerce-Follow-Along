@@ -56,6 +56,7 @@ app.use("/product",async (req, res, next) => {
 },productRouter);
 
 app.use("/allproducts",allProductRouter);
+app.use('/upload',express.static(path.join(__dirname,"uploads")));
 
 app.listen(8000,async()=>{
     try {

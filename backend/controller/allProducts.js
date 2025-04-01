@@ -15,7 +15,7 @@ allProductRouter.get("/",async(req,res)=>{
 
 allProductRouter.get("/:id",async(req,res)=>{
     try{
-        const {id} req.params;
+        const {id}=req.params;
         if(!id){
             return res.status(400).send({message:"please provide id"});
         }
@@ -28,3 +28,5 @@ allProductRouter.get("/:id",async(req,res)=>{
 
     
 })
+
+module.exports = allProductRouter;
