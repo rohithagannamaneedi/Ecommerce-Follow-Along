@@ -1,0 +1,45 @@
+import React, { useEffect, useState } from 'react'
+import axios, { formToJSON } from 'axios';
+import styles from "./products.module.css"
+import MyProductCard from './MyProductCard';
+import CartCard from "./CartCard.jsx";
+
+
+const Cart = () => {
+
+    const [products,setProducts] = useState([]);
+    function getData(){
+        axios.get("https://localhost:8080/allproducts")
+        .then((data)=>{
+            console.log(data);
+
+            const userData = JSON.parse(localStorage.getItem("follow-along-auth-token-user-name-id"));
+            const newData = data.data.products.filter((ele)=>{
+                return ele.userData == userData.id;
+            })
+            setProducts(newData);
+        }).catch((err)=>{
+            console.log(console.error(err));
+        })
+    }
+
+    
+    useEffect(()=>{
+        getData();
+    },[])
+
+  return (
+    <>
+    <h1>Products</h1>
+        <div className={styles.products}>
+      {
+        products.map((ele)=>{
+            return <MyProductCard key={ele.id} product={ele}/>
+        })
+      }
+    </div>
+    </>
+  )
+}
+
+export default Cart;
