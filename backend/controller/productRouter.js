@@ -78,7 +78,7 @@ productRouter.put("/update/:id",uploadImages,async(req,res)=>{
     }
 })
 
-productRouter.delete("/delete/:id"async(req,res)=>{
+productRouter.delete("/delete/:id",async(req,res)=>{
     try {
         const{id} = req.params;
         if(!id){
