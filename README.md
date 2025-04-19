@@ -101,10 +101,13 @@ Completed foundation for your E-Commerce Application.
 * Created endpoint for User-details in backend.
 * Created User.jsx for User-details in frontend.
 
-
-
 # Milestone 21:
 * Created frontend for Address.
 * Created route for Add Address Page in Frontend.
 * Create form for adding adress.
 * Stored address usinguseState Hook.
+
+# Milestone 22:
+* Created Backend for Address and attached with frontend.
+* Created backend endpoint for handeling address.
+* Added backend endpoint with fronend
