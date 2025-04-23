@@ -97,7 +97,7 @@ Completed foundation for your E-Commerce Application.
 * Created put request for updating quantity for cart item.
 
 # Milestone 20:
-* Backend endpoint for User details
+* Backend endpoint for User details.
 * Created endpoint for User-details in backend.
 * Created User.jsx for User-details in frontend.
 
@@ -110,4 +110,10 @@ Completed foundation for your E-Commerce Application.
 # Milestone 22:
 * Created Backend for Address and attached with frontend.
 * Created backend endpoint for handeling address.
-* Added backend endpoint with fronend
+* Added backend endpoint with fronend.
+
+# Milestone 23:
+* Worked on address in frontend and backend.
+* Created placeholder button in cart page and added navigation to select.
+* Created select address page and provided option to select one address.
+* Created backend endpoint to sent all address to user.
