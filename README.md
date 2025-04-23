@@ -117,3 +117,10 @@ Completed foundation for your E-Commerce Application.
 * Created placeholder button in cart page and added navigation to select.
 * Created select address page and provided option to select one address.
 * Created backend endpoint to sent all address to user.
+
+# Milestone 24:
+* Worked on address in frontend and backend
+* Displayed all of products in cart.
+* Display all address in address selection page.
+* Displayed total price in cart.
+* Added order button at the bottom.
