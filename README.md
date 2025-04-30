@@ -124,3 +124,9 @@ Completed foundation for your E-Commerce Application.
 * Display all address in address selection page.
 * Displayed total price in cart.
 * Added order button at the bottom.
+
+# Milestone 25:
+* Worked on order backend and email services.
+* Created end point for order.
+* Handled address for the delivery.
+* Implemented mail service from nodemailer.
