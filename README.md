@@ -130,3 +130,8 @@ Completed foundation for your E-Commerce Application.
 * Created end point for order.
 * Handled address for the delivery.
 * Implemented mail service from nodemailer.
+
+# Milestone 26:
+* Worked on order backend and email service.
+* Implemented mail with nodemailer.
+* Sending order details to user via mails.
