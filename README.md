@@ -135,3 +135,7 @@ Completed foundation for your E-Commerce Application.
 * Worked on order backend and email service.
 * Implemented mail with nodemailer.
 * Sending order details to user via mails.
+
+# Milestone 27:
+* Worked on frontend for my order page.
+* Created get request to get request my orders.
