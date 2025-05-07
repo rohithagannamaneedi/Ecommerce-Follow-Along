@@ -139,3 +139,10 @@ Completed foundation for your E-Commerce Application.
 # Milestone 27:
 * Worked on frontend for my order page.
 * Created get request to get request my orders.
+
+# Milestone 28:
+* We created add cancel button in my-orders. 
+* Created an backend endpoint for cancel order.
+
+# Milestone 29:
+* Worked on Integrated dummy payment.
