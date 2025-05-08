@@ -146,3 +146,6 @@ Completed foundation for your E-Commerce Application.
 
 # Milestone 29:
 * Worked on Integrated dummy payment.
+
+# Milestone 30:
+* Worked on payement page.
