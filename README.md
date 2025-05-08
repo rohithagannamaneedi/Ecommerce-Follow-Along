@@ -149,3 +149,8 @@ Completed foundation for your E-Commerce Application.
 
 # Milestone 30:
 * Worked on payement page.
+
+# Milestone 31:
+* Redux Implementation.
+* Impleemted Redux in frontend.
+* Used redux in user details page.
