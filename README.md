@@ -154,3 +154,16 @@ Completed foundation for your E-Commerce Application.
 * Redux Implementation.
 * Impleemted Redux in frontend.
 * Used redux in user details page.
+
+# Milestone 32:
+* Redux Implementation.
+* Implemented Redux in frontend.
+
+# Milestone 33: 
+* Setting up token in cookies.
+* Implemented cookies auth by using cookie-parser-npm package.
+* Added cookie by login page.
+
+# Milestone 34:
+* Setting up token in cookies.
+* Implemented token and cookies in frontend and backend both.
